@@ -2,7 +2,7 @@
 
 #mkdir myDirectory #=> will create directory with name myDirectory
 
-echo "Enter the file name to check"
+echo "Enter the file name to delete"
 
 read fileName
 
@@ -10,7 +10,8 @@ read fileName
 
 if [ -f $fileName ] 
 then
-	echo "$fileName exists"
+	rm $fileName
+	echo "$fileName deleted successfully."
 else
 	echo "$fileName doesn't exists"
 fi
