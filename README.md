@@ -2,5 +2,5 @@
 
 
 ## For debugging
-# bash -x <fileName>.sh
+# bash -x fileName.sh
 
